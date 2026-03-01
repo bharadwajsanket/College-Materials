@@ -1,0 +1,12 @@
+g++ Timber.cpp -o Timber -lsfml-graphics -lsfml-window -lsfml-system && ./Timber
+g++ test.cpp -o test -lsfml-graphics -lsfml-window -lsfml-system && ./test
+
+
+
+
+
+clang++ Timber.cpp -std=c++20 \
+-I/opt/homebrew/include \
+-L/opt/homebrew/lib \
+-lsfml-graphics -lsfml-window -lsfml-system \
+-o Timber && ./Timber
